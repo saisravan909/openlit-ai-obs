@@ -336,6 +336,7 @@ def init(
         configured_tracer = setup_tracing(
             application_name=final_service_name,
             environment=environment,
+            custom_tags=custom_tags,
             tracer=otel_tracer,
             otlp_endpoint=otlp_endpoint,
             otlp_headers=otlp_headers,
