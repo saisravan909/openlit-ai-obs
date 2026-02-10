@@ -20,7 +20,19 @@
 </div>
 
 ---
+---
 
+## 🛠️ My Active Contribution: AI Cost & Performance Observability
+
+I am currently developing a feature to enable **custom metric grouping** via the SDK (Issue #416). This allows engineering teams to track LLM costs and latency by specific client IDs or project tags.
+
+### **Current Progress:**
+- [x] Forked repository and created unique workspace (`openlit-ai-obs`).
+- [x] Identified target SDK initialization logic for tag injection.
+- [ ] Implement OTel attribute mapping for custom tags.
+- [ ] Submit Pull Request for community review.
+
+---
 <https://github.com/user-attachments/assets/6909bf4a-f5b4-4060-bde3-95e91fa36168>
 
 **OpenLIT** allows you to simplify your AI development workflow, especially for Generative AI and LLMs. It streamlines essential tasks like experimenting with LLMs, organizing and versioning prompts, and securely handling API keys. With just one line of code, you can enable **OpenTelemetry-native** observability, offering full-stack monitoring that includes LLMs, vector databases, and GPUs. This enables developers to confidently build AI features and applications, transitioning smoothly from testing to production.
