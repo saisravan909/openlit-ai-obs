@@ -218,6 +218,7 @@ def instrument_if_available(
 def init(
     environment="default",
     application_name="default",
+    custom_tags=None,
     service_name="default",
     otel_tracer=None,
     event_logger=None,
